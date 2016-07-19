@@ -2,8 +2,8 @@
 /**
  * Messages and other details for the button and the dialog
  *
- * @package    HNG2
- * @subpackage youtube_for_editor
+ * @package    BardCanvas
+ * @subpackage giphy_for_bardcanvas
  * @author     Alejandro Caballero - lava.caballero@gmail.com
  */
 ?>

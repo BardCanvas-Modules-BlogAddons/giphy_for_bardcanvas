@@ -1,8 +1,8 @@
 /**
  * Global functions for the module
  *
- * @package    HNG2
- * @subpackage youtube_for_editor
+ * @package    BardCanvas
+ * @subpackage giphy_for_bardcanvas
  * @author     Alejandro Caballero - lava.caballero@gmail.com
  */
 
