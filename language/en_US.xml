@@ -2,13 +2,13 @@
 <language>
     
     <display_name>Giphy search and embed</display_name>
-    <icon>fa-film</icon>
+    <icon>fa-info-circle fa-custom-giphy-icon</icon>
     <description><![CDATA[
         Port of Giphypress for BardCanvas. Adds a button that allows search and insertion of animated GIF files from Gipy.<br>
         Source: <a href="https://wordpress.org/plugins/giphypress/" target="_blank">The Giphypress plugin page</a>.
     ]]></description>
     
-    <addon function="giphy_for_bardcanvas" icon="fa-film">
+    <addon function="giphy_for_bardcanvas" icon="fa-info-circle fa-custom-giphy-icon">
         <caption>Giphy search</caption>
         <title>Search and insert animated GIF on the Giphy library</title>
     </addon>
