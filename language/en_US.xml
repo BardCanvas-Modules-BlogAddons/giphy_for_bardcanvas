@@ -8,10 +8,10 @@
         Source: <a href="https://wordpress.org/plugins/giphypress/" target="_blank">The Giphypress plugin page</a>.
     ]]></description>
     
-    <addon function="giphy_for_bardcanvas" icon="fa-info-circle fa-custom-giphy-icon">
+    <tinymce_addon function="giphy_for_bardcanvas" icon="fa-info-circle fa-custom-giphy-icon">
         <caption>Giphy search</caption>
         <title>Search and insert animated GIF on the Giphy library</title>
-    </addon>
+    </tinymce_addon>
     
     <tinymce_strings>
         <title>Insert Giphy image</title>
