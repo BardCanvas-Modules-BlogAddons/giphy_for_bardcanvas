@@ -12,7 +12,7 @@ $_TINYMCE_ADDON_FUNCTIONS['giphy_for_bardcanvas'] = function($trigger, $form)
     var $strings = $('#giphy_for_bardcanvas_tinymce_strings');
     var _title    = $strings.find('.title').text();
     
-    var editor_id = $form.find('textarea.tinymce').attr('id');
+    var editor_id = $form.find('textarea[class*="tinymce"]').attr('id');
     var editor    = tinymce.get(editor_id);
     
     var url        = $_FULL_ROOT_PATH + '/giphy_for_bardcanvas/giphypress/html/giphy.html?v=' + $_SCRIPTS_VERSION;
