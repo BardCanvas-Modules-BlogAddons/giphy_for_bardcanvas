@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <module>
     
-    <version>0.1 beta</version>
+    <version>0.1 alpha</version>
     <group>BardCanvas</group>
     
     <working_flags>
@@ -34,7 +34,7 @@
         <pre_eof>pre_eof.inc</pre_eof>
         <!--<post_rendering></post_rendering>-->
     </template_includes>
-
+    
     <tinymce_additions>
         <plugin name="giphy_for_bardcanvas">media/editor_plugin~v1.js</plugin>
         <toolbar>giphy_for_bardcanvas</toolbar>
