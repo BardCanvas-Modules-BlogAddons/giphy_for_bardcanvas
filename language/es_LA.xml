@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    
+    <display_name>Giphy para BardCanvas</display_name>
+    <icon>fa-info-circle fa-custom-giphy-icon</icon>
+    <description><![CDATA[
+        Adaptación de Giphypress para BardCanvas. Agrega un botón a TinyMCE para buscar e insertar GIFs animados de la biblioteca Giphy.<br>
+        Fuente: <a href="https://wordpress.org/plugins/giphypress/" target="_blank">Página del plugin Giphypress en Wordpress</a>.
+    ]]></description>
+    
+    <tinymce_strings>
+        <title>Insertar GIF animado</title>
+    </tinymce_strings>
+    
+</language>
