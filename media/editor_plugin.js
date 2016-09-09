@@ -9,11 +9,16 @@ tinymce.PluginManager.add('giphy_for_bardcanvas', function(ed, url)
     
     ed.addCommand('giphy_for_bardcanvas', function()
     {
+        var width  = $(window).width();
+        var height = $(window).height();
+        if( width  > 482 ) width  = 482;
+        if( height > 605 ) height = 605;
+        
         ed.windowManager.open({
             title:  _title,
             url:    page_url,
-            width:  482,
-            height: 605
+            width:  width,
+            height: height
         }, {
             plugin_url: plugin_url,            // Plugin absolute URL
             api_key:    'G46lZIryTGCUU',       // the API key
