@@ -28,6 +28,7 @@ var GiphySearch = {
     SCROLL_MOMENTUM_THRESHOLD: 100,
     ALLOW_URL_UPDATES:true, // enable history pushstate via add_history method
     API_KEY:"G46lZIryTGCUU", 
+    // API_KEY:"dc6zaTOxFJmzC", 
     //API_KEY: parent.tinyMCE.activeEditor.getParam('api_key'),
     location:{}, // for chrome ext
 
@@ -329,8 +330,8 @@ var GiphySearch = {
             dt.effectAllowed = "linkMove";
             dt.dropEffect = "linkMove";
             // FB pukes on our short link. use full url for better user experience
-            dt.setData("text/html", "http://giphy.com/gifs/" + gif_obj.id  );
-            dt.setData("text", "http://giphy.com/gifs/" + gif_obj.id  );            
+            dt.setData("text/html", "https://giphy.com/gifs/" + gif_obj.id  );
+            dt.setData("text", "https://giphy.com/gifs/" + gif_obj.id  );            
         }
         if(/.*\.hipchat\.com/.test(_hostname)) {
             dt.setData("text/html", gif_obj.images.original.url);
@@ -376,8 +377,8 @@ var GiphySearch = {
             dt.effectAllowed = "linkMove";
             dt.dropEffect = "linkMove";
             // FB pukes on our short link. use full url for better user experience
-            dt.setData("text/html", "http://giphy.com/gifs/" + gif_obj.id  );
-            dt.setData("text", "http://giphy.com/gifs/" + gif_obj.id  );            
+            dt.setData("text/html", "https://giphy.com/gifs/" + gif_obj.id  );
+            dt.setData("text", "https://giphy.com/gifs/" + gif_obj.id  );            
         }
         if(/.*\.hipchat\.com/.test(_hostname)) {
             dt.setData("text/html", gif_obj.images.original.url);
@@ -426,8 +427,8 @@ var GiphySearch = {
             dt.effectAllowed = "linkMove";
             dt.dropEffect = "linkMove";
             // FB pukes on our short link. use full url for better user experience
-            dt.setData("text/html", "http://giphy.com/gifs/" + gif_obj.id  );
-            dt.setData("text", "http://giphy.com/gifs/" + gif_obj.id  );            
+            dt.setData("text/html", "https://giphy.com/gifs/" + gif_obj.id  );
+            dt.setData("text", "https://giphy.com/gifs/" + gif_obj.id  );            
         }
         if(/.*\.hipchat\.com/.test(_hostname)) {
             dt.setData("text/html", gif_obj.images.original.url);
@@ -904,7 +905,7 @@ var GiphySearch = {
         GiphySearch.curSearchTerm = q;
 
         // giphy search api url
-        var url = "http://api.giphy.com/v1/gifs/search?api_key=" + GiphySearch.API_KEY +
+        var url = "https://api.giphy.com/v1/gifs/search?api_key=" + GiphySearch.API_KEY +
             "&q=" + q +
             //"&type=min" +
             "&limit=" + limit +
